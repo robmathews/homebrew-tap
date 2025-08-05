@@ -10,7 +10,7 @@ class SlackifyMarkdown < Formula
   on_macos do
     on_intel do
       url "https://github.com/robmathews/slackify-markdown/releases/download/v1.0.0/slackify-markdown_Darwin_x86_64.tar.gz"
-      sha256 "949bd2f0d6344fceb8dd25e4b4c5b86370ccc2c9c0e01b0c55aa60f86f7a0d8e"
+      sha256 "c4dad16377320e1d20b18cc71508294649c6765b2a4c5f5ea4ea24544af900e9"
 
       def install
         bin.install "slackify-markdown"
@@ -18,7 +18,7 @@ class SlackifyMarkdown < Formula
     end
     on_arm do
       url "https://github.com/robmathews/slackify-markdown/releases/download/v1.0.0/slackify-markdown_Darwin_arm64.tar.gz"
-      sha256 "b51d27dc97b517c8b3b814ba9d34fa51e70ddcebd6fe36548c2342a81ad6bbc7"
+      sha256 "8fe7b5970d55504a7cd2c910618c8ea91a54ad8fa82e20c1ce328f9fb0af9bc0"
 
       def install
         bin.install "slackify-markdown"
@@ -30,7 +30,7 @@ class SlackifyMarkdown < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/robmathews/slackify-markdown/releases/download/v1.0.0/slackify-markdown_Linux_x86_64.tar.gz"
-        sha256 "cc100d7d6671645775841468f8b3bb0766a245a0d31d346341be699bf99115c1"
+        sha256 "660b9037756458eaebefde1529d6f683f4021a3c848f91c15e6d8d5e2ee96ba1"
 
         def install
           bin.install "slackify-markdown"
@@ -40,7 +40,7 @@ class SlackifyMarkdown < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/robmathews/slackify-markdown/releases/download/v1.0.0/slackify-markdown_Linux_arm64.tar.gz"
-        sha256 "40848f7cd9dac0d8b61826c81fafe31c84c0db6c52ac83220fb92b86f8fd0e56"
+        sha256 "15853bc8de09a0df5bf426d12a23772c5297f1cb6037e70a2ce033d851bb9409"
 
         def install
           bin.install "slackify-markdown"
