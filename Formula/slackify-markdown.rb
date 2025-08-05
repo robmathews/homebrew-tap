@@ -1,7 +1,7 @@
 class SlackifyMarkdown < Formula
   desc "Convert Markdown to Slack formatting"
-  homepage "https://github.com/yourusername/slackify-markdown"
-  url "https://github.com/yourusername/slackify-markdown/archive/v1.0.0.tar.gz"
+  homepage "https://github.com/robmathews/slackify-markdown"
+  url "https://github.com/robmathews/slackify-markdown/archive/v1.0.0.tar.gz"
   sha256 "YOUR_SHA256_HERE"  # Get this from: shasum -a 256 v1.0.0.tar.gz
   license "MIT"
 
